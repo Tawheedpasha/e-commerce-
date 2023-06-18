@@ -1,0 +1,9 @@
+<?php
+  $con=mysqli_connect("localhost","root","","knots_hub");
+  define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'./');
+  define('SITE_PATH','http://localhost:7000/',);
+  define('PRODUCT_IMAGE_SERVER_PATH',SERVER_PATH.'media/product/');
+  define('PRODUCT_IMAGE_SITE_PATH',SITE_PATH.'media/product/');
+  define('PRODUCT_IMAGE_SERVER_PATH_BAN',SERVER_PATH.'media/banner/');
+  define('PRODUCT_IMAGE_SITE_PATH_BAN',SITE_PATH.'media/banner/');
+?>
